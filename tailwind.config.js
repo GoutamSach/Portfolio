@@ -1,3 +1,5 @@
+const { fontFamily } = require("tailwindcss/defaultTheme");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -9,7 +11,25 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        bgForSkills:
+          "repeating-radial-gradient(rgba(0,0,0,0.4)2px, #f5f5f5 5px,#f5f5f5 100px)",
+      },
+      animation: {
+        "spin-slow": "bounce 1s   linear   infinite",
+      },
+      fontFamily: {
+        mont: ["var(--font-inter)"],
+        ...fontFamily.sans,
+      },
+      colors: {
+        dark: "#1b1b1b",
+        light: "#f5f5f5",
+        primary: "#B63E96",
+        primaryDark: "#58E6D9",
+      },
+    },
   },
   plugins: [],
 };
