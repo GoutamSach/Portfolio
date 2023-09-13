@@ -5,7 +5,7 @@ function Skills() {
   const Skill = ({ name, x, y }) => {
     return (
       <motion.div
-        className=" flex items-center absolute  rounded-full font-semibold text-light bg-dark px-6 py-3 hover:scale-105 cursor-pointer  transition duration-300"
+        className=" flex items-center absolute rounded-full font-semibold text-light bg-dark px-6 py-3 hover:scale-105 cursor-pointer transition duration-300"
         initial={{ x: 0, y: 0 }}
         whileInView={{ x: x, y: y }}
         transition={{ duration: 1.5 }}
