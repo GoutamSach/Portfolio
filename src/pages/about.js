@@ -6,17 +6,9 @@ import Image from "next/image";
 import profilepic from "../../public/images/profile/developer-pic-2.png";
 import Skills from "./components/Skills";
 import Experiance from "./components/Experiance";
+import { motion } from "framer-motion";
 
 function about() {
-  const quote = {
-    initial: { opacity: 0, y: 50 },
-    animate: {
-      opacity: 1,
-      y: 0,
-      transition: { delay: 0.5, staggerChildren: 0.08 },
-    },
-  };
-
   return (
     <>
       <Navbar />

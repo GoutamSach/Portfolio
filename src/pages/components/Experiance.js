@@ -30,18 +30,26 @@ function Experiance() {
           <motion.div
             style={{ scaleY: scrollYProgress }}
             className=" absolute -left-16  origin-top mt-2   top-0 w-[4px] h-full bg-dark"
-          ></motion.div>{" "}
-          <div className=" absolute -left-[118px] -top-5">
-            <LIIcon reference={ref} />
-          </div>
-          <div className=" w-full ml-8 ">
-            <Details
-              position="Layout Engineer"
-              company="Congruex Asia Pacific."
-              time="Sep 2020 - Present"
-              work=""
-            />
-          </div>
+          ></motion.div>
+
+          <motion.div
+            initial={{ y: 50 }}
+            whileInView={{ y: 0 }}
+            transition={{ duration: 0.75, type: "spring" }}
+            className=""
+          >
+            <div className=" absolute -left-[118px] -top-5">
+              <LIIcon reference={ref} />
+            </div>
+            <div className=" w-full ml-8 ">
+              <Details
+                position="Layout Engineer"
+                company="Congruex Asia Pacific."
+                time="Sep 2020 - Present"
+                work=""
+              />
+            </div>
+          </motion.div>
         </div>
       </div>
     </>
