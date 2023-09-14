@@ -19,7 +19,7 @@ function Layout() {
               className="font-bold text-5xl  xl:text-6xl text-right  text-dark"
               text={"Turning Vision Into Reality With Code And Design."}
             />
-            <p className=" my-6 text-base font-medium ">
+            <p className=" text-right my-6 text-base font-medium ">
               As a skilled Frontend Web developer, I am dedicated to turning
               ideas into innovative web applications. Explore my latest projects
               and articles, showcasing my expertise in React.js and web
