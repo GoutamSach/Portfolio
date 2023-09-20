@@ -5,11 +5,11 @@ import Link from "next/link";
 
 function HireMEFullComponent() {
   return (
-    <div className=" relative ">
-      <div className="   hover:scale-105 fixed right-5 bottom-5     ">
-        <div className=" relative flex items-center justify-center animate-bounce  ">
+    <div className="  ">
+      <div className="   hover:scale-105      ">
+        <div className="  flex items-center justify-center animate-bounce  ">
           {/* <motion.div animate={{ rotate: 360 }} className=""> */}
-          <HireMEComp className="w-64    " />
+          <HireMEComp className="w-[500px]  " />
           {/* </motion.div> */}
 
           <Link
