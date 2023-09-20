@@ -12,28 +12,28 @@ import Animatedtext from "../Animatedtext";
 function Layout() {
   return (
     <>
-      <div className=" relative xl:px-32 px-4 sm:px-8 md:px-16  text-dark w-full min-h-screen mt-8">
-        <div className="flex items-center">
-          <div className=" w-1/2 pr-4   ">
+      <div className=" relative xl:px-32 px-4 sm:px-12 md:px-16   text-dark w-full min-h-screen md:mt-8 sm:mt-4 mt-2">
+        <div className="flex items-center md:flex-row flex-col-reverse">
+          <div className=" md:w-1/2 md:pr-4   ">
             <Animatedtext
-              className="font-bold text-5xl  xl:text-6xl text-right  text-dark"
+              className=""
               text={"Turning Vision Into Reality With Code And Design."}
             />
-            <p className=" text-right my-6 text-base font-medium ">
+            <p className=" md:text-right sm:text-sm my-6 md:text-base font-medium text-center  text-sm ">
               As a skilled Frontend Web developer, I am dedicated to turning
               ideas into innovative web applications. Explore my latest projects
               and articles, showcasing my expertise in React.js and web
-              development
+              fffffffffffffffffffffffff development
             </p>
-            <div className=" flex items-center justify-end gap-6 mt-2">
+            <div className="  md:text-lg text-sm flex items-center justify-center md:justify-end gap-6 mt-2 mb-6 md:mb-0">
               <Link
-                className=" hover:scale-110 transform duration-200 border-dark hover:border-dark border-b-2 mr-4  text-lg  font-medium  text-dark undre"
+                className=" hover:scale-110 transform duration-200 border-dark hover:border-dark  border-b-2 mr-4 font-medium  text-dark undre"
                 href="mailto:goutam.sach@gmail.com"
               >
                 Contact
               </Link>
               <Link
-                className=" flex gap-1 items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold   hover:bg-light  hover:text-dark border-2 hover:border-solid border-transparent hover:border-dark transform duration-300 "
+                className=" flex gap-1 items-center bg-dark text-light md:p-2.5 md:px-6 p-1.5 px-3 rounded-lg  font-semibold   hover:bg-light  hover:text-dark border-2 hover:border-solid border-transparent hover:border-dark transform duration-300 "
                 download={true}
                 href="/dummy.pdf"
               >
@@ -41,26 +41,26 @@ function Layout() {
               </Link>
             </div>
           </div>
-          <div className=" w-1/2">
+          <div className=" md:w-1/2">
             <motion.div
               initial={{ x: 30, opacity: 0 }}
               animate={{ x: 0, transition: { duration: 1 }, opacity: 1 }}
               className=""
             >
-              <div className="">
+              <div className="  ">
                 <Image
                   src={profilepic}
                   alt="profilepic"
-                  className="w-full  h-auto"
+                  className="w   h-auto"
                 />
               </div>
             </motion.div>
           </div>
         </div>
-        <div className="fixed right-5 bottom-8 ">
+        <div className="fixed right-5 bottom-8 hidden md:inline-block ">
           <HireMEFullComponent />
         </div>
-        <div className="absolute left-12 bottom-36 w-24">
+        <div className="absolute sm:w-16  md:left-6 md:-bottom-6 md:w-20 w-12 sm:-bottom-8  -bottom-4 left-1 ">
           <Image src={lightbuld} alt="lightbulb" className="w-full h-auto" />
         </div>
       </div>

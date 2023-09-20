@@ -13,7 +13,7 @@ function Animatedtext({ text }) {
 
   return (
     <motion.h1
-      className=" font-bold text-5xl  xl:text-6xl text-right  text-dark "
+      className=" font-bold sm:text-4xl  text-2xl   xl:text-6xl text-center md:text-right  text-dark "
       variants={quote}
       initial="initial"
       animate="animate"

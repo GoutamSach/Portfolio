@@ -17,7 +17,7 @@ module.exports = {
           "repeating-radial-gradient(rgba(0,0,0,0.4)2px, #f5f5f5 5px,#f5f5f5 100px)",
       },
       animation: {
-        "spin-slow": "bounce 1s   linear   infinite",
+        "spin-slow": "spin 7s   linear   infinite",
       },
       fontFamily: {
         mont: ["var(--font-inter)"],

@@ -26,13 +26,13 @@ const CustomLink = ({ href, title, className = "" }) => {
 function Navbar() {
   const router = useRouter();
   return (
-    <header className=" xl:px-32 px-4 sm:px-8 pt-8  font-medium flex items-center  justify-between">
-      <nav className=" hidden md:inline-block  gap-10 md:flex  basis-1/3 ">
+    <header className=" xl:px-32 px-4 sm:px-8 md:pt-8 sm:pt-6 pt-2  font-medium flex items-center  justify-between">
+      <nav className=" hidden md:inline-block   gap-10 md:flex   md:basis-1/3 ">
         <CustomLink href="/" title="Home" />
         <CustomLink href="/about" title="About" />
         <CustomLink href="/projects" title="Projects" />
       </nav>
-      <div className=" basis-1/3 hidden md:inline-block">
+      <div className=" md:basis-1/3 md:flex items-center justify-center hidden ">
         <Logo className="" />
       </div>
 
@@ -58,14 +58,14 @@ function Navbar() {
         >
           <TwitterIcon />
         </motion.a>
-        <div className=" scale-50">
-          <HireMEFullComponent />
-        </div>
       </nav>
+      <div className=" md:hidden basis-1/2 flex  justify-end  ">
+        <HireMEFullComponent />
+      </div>
 
       {/* for mobile menu */}
 
-      <div className=" md:hidden relative">
+      <div className=" md:hidden relative text-sm">
         <div className="fixed bottom-0 z-50 w-screen -translate-x-1/2 border-t  bg-light border-gray-200 left-1/2 dark:bg-gray-700 dark:border-gray-600">
           <div className="w-full flex  items-center justify-between">
             <div
@@ -74,7 +74,7 @@ function Navbar() {
             >
               <Link
                 href="about"
-                className={`px-7 py-1   text-s font-medium border      rounded-lg 
+                className={`px-7 py-1 font-medium border rounded-lg 
                   ${
                     router.pathname === "/about"
                       ? "  bg-gray-200 text-dark  border-dark "
@@ -89,7 +89,7 @@ function Navbar() {
 
               <Link
                 href="projects"
-                className={`px-7  py-1    border   text-s font-medium rounded-lg 
+                className={`px-7 py-1 borderfont-medium rounded-lg 
                   ${
                     router.pathname === "/projects"
                       ? "bg-gray-200 text-dark border-dark  "
