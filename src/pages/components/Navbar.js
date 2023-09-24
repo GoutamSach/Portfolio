@@ -36,7 +36,7 @@ function Navbar() {
         <Logo className="" />
       </div>
 
-      <nav className=" relative flex items-center justify-center md:gap-8 gap-4 basis-1/2 md:basis-1/3 ">
+      <nav className=" relative flex items-center justify-left md:justify-center md:gap-8 gap-4 basis-1/2 md:basis-1/3 ">
         <motion.a
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
@@ -69,7 +69,7 @@ function Navbar() {
         <div className="fixed bottom-0 z-50 w-screen -translate-x-1/2 border-t  bg-light border-gray-200 left-1/2 dark:bg-gray-700 dark:border-gray-600">
           <div className="w-full flex  items-center justify-between">
             <div
-              className=" flex items-center justify-between max-w-xs  gap-5    mx-auto    bg-transparent rounded-lg dark:bg-gray-600"
+              className=" flex items-center justify-between max-w-xs px-2  gap-5    mx-auto    bg-transparent rounded-lg dark:bg-gray-600"
               role="group"
             >
               <Link
@@ -77,8 +77,8 @@ function Navbar() {
                 className={`px-7 py-1 font-medium border rounded-lg 
                   ${
                     router.pathname === "/about"
-                      ? "  bg-gray-200 text-dark  border-dark "
-                      : "     bg-light text-dark  border-light"
+                      ? "  bg-gray-200 text-dark   "
+                      : "     bg-light text-dark  "
                   }`}
               >
                 About
@@ -89,11 +89,11 @@ function Navbar() {
 
               <Link
                 href="projects"
-                className={`px-7 py-1 borderfont-medium rounded-lg 
+                className={`px-7 py-1 border font-medium rounded-lg 
                   ${
                     router.pathname === "/projects"
-                      ? "bg-gray-200 text-dark border-dark  "
-                      : "bg-light text-dark border-light   "
+                      ? "bg-gray-200 text-dark   "
+                      : "bg-light text-dark    "
                   }`}
               >
                 Projects
