@@ -7,6 +7,7 @@ import profilepic from "../../public/images/profile/developer-pic-2.png";
 import Skills from "./components/Skills";
 import Experiance from "./components/Experiance";
 import { motion } from "framer-motion";
+import TransitionEffects from "./components/TransitionEffects";
 
 function about() {
   const quote = {
@@ -19,6 +20,7 @@ function about() {
   };
   return (
     <>
+      <TransitionEffects />
       <Navbar />
       <div className=" md:mt-16 mt-4 relative  xl:px-32 px-4 sm:px-8 md:px-16 text-dark w-full min-h-screen ">
         <main className=" relative z-10 md:flex md:w-full  md:items-center md:justify-center md:flex-col">
@@ -30,31 +32,29 @@ function about() {
               animate="animate"
               className=" basis-1/2 "
             >
-              <h2 className="mt-16 md:mt-0 mb-3 text-lg font-bold text-dark/75 text-center md:text-left">
+              <h2 className="mt-16 md:mt-0 mb-3 md:text-2xl text-lg font-bold text-dark/75 text-center md:text-left">
                 BIOGRAPGY
               </h2>
-              <p className=" text-sm md:text-md font-medium text-center md:text-left ">
-                Lorem ipsum <b>dolor sit amet</b> dolor sit amet consectetur
-                adipisicing elit. Nemo fuga non consequatur ab neque. Deserunt
-                aliquam eius sint rerum quo, consequuntur dolor aperiam aut
-                voluptas veniam ratione quisquam veritatis illo hic
-                necessitatibus sed dolores soluta animi reprehenderit amet omnis
-                et optio sapiente iste. Lorem ipsum dolor sit, amet consectetur
-                adipisicing elit. Autem, eos?
+              <p className=" text-sm md:text-lg font-medium text-center  md:text-left ">
+                "Hello!" I'm <b>Goutam Sachdeva</b> a passionate Frontend Web
+                Developer. My core skills include React, HTML, CSS, Tailwind
+                CSS, JavaScript and React, along with proficiency in Material-UI
+                and Bootstrap.
               </p>
 
-              <p className="text-sm md:text-md font-medium text-center md:text-left">
-                Perferendis iste tempore odit doloribus voluptatem eos. Et
-                consectetur dicta excepturi officia ut nobis, quaerat ad
-                recusandae sed deserunt. Velit veniam ad, labore nemo accusamus
-                mollitia cum vero libero consequatur dignissimos ex quibusdam
-                totam explicabo veritatis provident reprehenderit earum? Odio
-                eos nem.
+              <p className="text-sm md:text-lg font-medium text-center md:text-left">
+                In my journey so far, I've already completed several projects
+                that showcase my ability to create responsive and engaging web
+                experiences and count is increasing. These projects have helped
+                me master the art of building modern, user-friendly interfaces
+                while staying updated with the latest libraries and tools.
               </p>
-
-              <p className="text-sm md:text-md font-medium text-center">
-                veniam tenetur asperiores possimus sed iusto laborum corporis
-                sunt architecto fugit delectus sapiente qui repudiandae.
+              <br />
+              <p className="text-sm md:text-lg font-medium text-center md:text-left">
+                I'm enthusiastic about collaborating on innovative projects,
+                continuously learning, and growing as a developer. Let's connect
+                to explore opportunities and discuss how I can contribute to
+                your web development endeavors!"
               </p>
             </motion.div>
             <motion.div
