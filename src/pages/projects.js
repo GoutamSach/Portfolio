@@ -2,9 +2,9 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Animatedtext from "./components/Animatedtext";
-import project1 from "../../public/images/projects/movix.png";
+import project1 from "../../public/images/projects/movix.JPG";
 import google_clone from "../../public/images/projects/googleClone.JPG";
-import Airbnb_clone from "../../public/images/projects/Airbnb-Clone.png";
+import Airbnb_clone from "../../public/images/projects/Airbnb-Clone.JPG";
 import gmail_clone from "../../public/images/projects/gmail_clone.JPG";
 import Linkedin_clone from "../../public/images/projects/linkedin_clone.JPG";
 import snapchat_clone from "../../public/images/projects/snapchat_clone.JPG";
@@ -36,8 +36,8 @@ function projects() {
             {/* googleClone.................... */}
             <ProjectCard
               title="  html5,  css3,  JavaScript,  React JS,  Tailwind CSS,  Redux,  React Router, MUI,  API "
-              summary1="Google clone is a fully responsive demo web app that can deliver real-time search results taking input from users. It can also display images per user's input. It can navigate between pages and can deliver millions of results within milliseconds. "
-              summary2="It is a realtime web app which is powered by Google's custom search API deployed on Netlify. "
+              summary1="Google clone is a fully responsive demo web app that can deliver real-time search results taking input from users. It can also display images per users input. It can navigate between pages and can deliver millions of results within milliseconds. "
+              summary2="It is a realtime web app which is powered by Google custom search API deployed on Netlify. "
               image={google_clone}
               link="https://search-engine-clone-app.netlify.app/"
               github="https://github.com/GoutamSach/google_clone"
