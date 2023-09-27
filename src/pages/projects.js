@@ -2,12 +2,6 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Animatedtext from "./components/Animatedtext";
-// import project1 from "../../public/images/projects/movix.jpg";
-// import google_clone from "../../public/images/projects/googleClone.jpg";
-// import Airbnb_clone from "../../public/images/projects/Airbnb-Clone.jpg";
-// import gmail_clone from "../../public/images/projects/gmail_clone.jpg";
-// import Linkedin_clone from "../../public/images/projects/linkedin_clone.jpg";
-// import snapchat_clone from "../../public/images/projects/snapchat_clone.jpg";
 import TransitionEffects from "./components/TransitionEffects";
 import ProjectCard from "./components/ProjectCard";
 

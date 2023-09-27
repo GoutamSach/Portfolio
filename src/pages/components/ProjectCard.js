@@ -18,8 +18,8 @@ function ProjectCard({ type, image, summary1, summary2, link, github, title }) {
         <div className=" relative  w-full flex md:justify-between  flex-col md:flex-row items-center md:rounded-3xl rounded-2xl border border-solid  border-dark bg-light shadow-2xl md:p-8 sm:p-6 p-4">
           <div className="  absolute -z-10 md:rounded-3xl rounded-2xl top-2  md:top-3 md:-right-4 -right-2 w-[100%]  bg-dark h-[100%]" />
           <Link
+            href={link ?? ""}
             className=" md:w-1/2 cursor-pointer overflow-hidden md:rounded-2xl rounded-lg "
-            href={link}
           >
             <Image
               width={2000}
@@ -35,7 +35,7 @@ function ProjectCard({ type, image, summary1, summary2, link, github, title }) {
               {type}
             </span>
 
-            <Link href={link}>
+            <Link href={link ?? ""}>
               <div className="text-primary  mt-4 font-medium w-full md:text-base  text-sm ">
                 <b>TechStack:</b>
                 {title}
@@ -49,15 +49,15 @@ function ProjectCard({ type, image, summary1, summary2, link, github, title }) {
             </p>
             <div className="  mt-2 flex items-center justify-center gap-6 ">
               <Link
+                href={github ?? ""}
                 className="md:w-12  w-10 h-auto hover:scale-110 transition duration-300"
-                href={github}
               >
                 <GitIcon />
               </Link>
 
               <Link
+                href={link ?? ""}
                 className=" rounded-lg bg-dark text-light text-sm md:text-base  p-2 md:px-6 px-3 hover:bg-light hover:text-dark transition font-medium duration-200 border border-dark "
-                href={link}
               >
                 Visit Project
               </Link>
