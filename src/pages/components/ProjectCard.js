@@ -16,7 +16,7 @@ function ProjectCard({ type, image, summary1, summary2, link, github, title }) {
     >
       <div className=" relative  z-0 md:mb-20 mb-16 md:mt-16 mt-8">
         <div className=" relative  w-full flex md:justify-between  flex-col md:flex-row items-center md:rounded-3xl rounded-2xl border border-solid  border-dark bg-light shadow-2xl md:p-8 sm:p-6 p-4">
-          <div className="  absolute -z-10   md:rounded-3xl rounded-2xl top-2  md:top-3 md:-right-4 -right-2 w-[100%]  bg-dark h-[100%]" />
+          <div className="  absolute -z-10 md:rounded-3xl rounded-2xl top-2  md:top-3 md:-right-4 -right-2 w-[100%]  bg-dark h-[100%]" />
           <Link
             className=" md:w-1/2 cursor-pointer overflow-hidden md:rounded-2xl rounded-lg "
             href={link}
@@ -24,7 +24,7 @@ function ProjectCard({ type, image, summary1, summary2, link, github, title }) {
             <Image
               src={image}
               alt={title}
-              className="w-full h-auto  h-auto  hover:scale-105  transition duration-300"
+              className="w-full h-auto   hover:scale-105  transition duration-300"
             />
           </Link>
 
