@@ -22,8 +22,9 @@ function ProjectCard({ type, image, summary1, summary2, link, github, title }) {
             className=" md:w-1/2 cursor-pointer overflow-hidden md:rounded-2xl rounded-lg "
           >
             <Image
-              width={2000}
-              height={1000}
+              width={0}
+              height={0}
+              sizes="100vw"
               src={image}
               alt={title}
               className="w-full h-auto   hover:scale-105  transition duration-300"
