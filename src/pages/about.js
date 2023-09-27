@@ -18,6 +18,7 @@ function about() {
       transition: { delay: 0.7, staggerChildren: 0.5 },
     },
   };
+
   return (
     <>
       <TransitionEffects />
@@ -36,25 +37,26 @@ function about() {
                 BIOGRAPGY
               </h2>
               <p className=" text-sm md:text-lg font-medium text-center  md:text-left ">
-                "Hello!" I'm <b>Goutam Sachdeva</b> a passionate Frontend Web
-                Developer. My core skills include React, HTML, CSS, Tailwind
-                CSS, JavaScript and React, along with proficiency in Material-UI
-                and Bootstrap.
+                &quot;Hello!&quot; I&apos;m <b>Goutam Sachdeva</b> a passionate
+                Frontend Web Developer. My core skills include React, HTML, CSS,
+                Tailwind CSS, JavaScript and React, along with proficiency in
+                Material-UI and Bootstrap.
               </p>
 
               <p className="text-sm md:text-lg font-medium text-center md:text-left">
-                In my journey so far, I've already completed several projects
-                that showcase my ability to create responsive and engaging web
-                experiences and count is increasing. These projects have helped
-                me master the art of building modern, user-friendly interfaces
-                while staying updated with the latest libraries and tools.
+                In my journey so far, I&apos;ve already completed several
+                projects that showcase my ability to create responsive and
+                engaging web experiences and count is increasing. These projects
+                have helped me master the art of building modern, user-friendly
+                interfaces while staying updated with the latest libraries and
+                tools.
               </p>
               <br />
               <p className="text-sm md:text-lg font-medium text-center md:text-left">
-                I'm enthusiastic about collaborating on innovative projects,
-                continuously learning, and growing as a developer. Let's connect
-                to explore opportunities and discuss how I can contribute to
-                your web development endeavors!"
+                I&apos;m enthusiastic about collaborating on innovative
+                projects, continuously learning, and growing as a developer.
+                Let&apos;s connect to explore opportunities and discuss how I
+                can contribute to your web development endeavors!&quot;
               </p>
             </motion.div>
             <motion.div
