@@ -60,7 +60,7 @@ function projects() {
               image={snapchat_clone}
               link="https://snapchat-clone-3358c.web.app/"
               github="https://github.com/GoutamSach/snapchat"
-              type=" SnapChat Clone "
+              type=" SnapChat Clone (Pc only) "
             />
             {/* gmail_clone */}
             <ProjectCard
@@ -69,7 +69,7 @@ function projects() {
               image={gmail_clone}
               link="https://clone-5500d.web.app/"
               github="https://github.com/GoutamSach/gmail-clone"
-              type=" Gmail Clone "
+              type=" Gmail Clone (Pc only) "
             />
             {/* linkedIn_Clone */}
             <ProjectCard
@@ -78,7 +78,7 @@ function projects() {
               image={Linkedin_clone}
               link="https://linkedin-clone-acae4.web.app/"
               github="https://github.com/GoutamSach/linkedin"
-              type=" LinkedIn Clone "
+              type=" LinkedIn Clone (Pc only) "
             />
           </div>
         </main>
