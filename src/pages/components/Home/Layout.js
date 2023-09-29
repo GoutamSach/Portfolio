@@ -35,9 +35,9 @@ function Layout() {
                 Contact
               </Link>
               <Link
-                className=" flex gap-1 items-center bg-dark text-light md:p-2.5 md:px-6 p-1.5 px-3 rounded-lg  font-semibold   hover:bg-light  hover:text-dark border-2 hover:border-solid border-transparent hover:border-dark transform duration-300 "
+                className="  flex gap-1 items-center bg-dark text-light md:p-2.5 md:px-6 p-1.5 px-3 rounded-lg  font-semibold   hover:bg-light  hover:text-dark border-2 hover:border-solid border-transparent hover:border-dark transform duration-300 "
                 download={true}
-                href="/dummy.pdf"
+                href="/resume.pdf"
               >
                 Resume <BiLinkExternal />
               </Link>
