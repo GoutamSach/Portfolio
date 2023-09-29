@@ -23,7 +23,7 @@ function ProjectCard({ type, image, summary1, summary2, link, github, title }) {
           >
             <Image
               width={500}
-              height={500}
+              height={300}
               src={image}
               alt={title}
               className="w-full h-auto   hover:scale-105  transition duration-300"
