@@ -76,7 +76,7 @@ function projects() {
               title="  html5,  css3,  JavaScript,  React JS,  Tailwind CSS,  Redux,  React Router, Firebase & Firestore, MUI,  API "
               summary1="LinkedIn Clone is a  demo web app showcasing strong front-end skills. It is using a realtime database from firebase to manage its backend. Users can sign up and log in using email and password. Users can read feeds and the stuff others post on the app and can share their posts with others as well. Posts are updated on a realtime basis making it more interesting. It is deployed in firebase."
               image={Linkedin_clone}
-              link="https://linkedin-clone-acae4.web.app/"
+              link="https://clonedlinkedin7.netlify.app/"
               github="https://github.com/GoutamSach/linkedin"
               type=" LinkedIn Clone (Pc only) "
             />
